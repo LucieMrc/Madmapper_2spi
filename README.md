@@ -20,7 +20,7 @@ Nous allons principalement nous intéresser au première onglet : en cliquant su
 
 ### Appliquer une texture
 
-On applique une texture sur une surface en sélectionnant cette surface, puis en cliquant sur la flèche de la texture désirée dans la partie gauche de l'interface.
+On applique une texture sur une surface en sélectionnant cette surface, puis en cliquant sur la flèche ◀️ de la texture désirée dans la partie gauche de l'interface.
 
 ![Screenshot de l'interface](./images/screen4.png)
 
@@ -28,13 +28,13 @@ La texture s'affiche alors dans la partie du milieu, à la fois sur la surface d
 
 Lorsqu'une texture est sélectionné, on peux modifier différents paramètres dans la partie de droite en dessous de la liste des textures : l'échelle, la couleur, la vitesse d'animation, etc.
 
-## Les scènes et les cuess
+## Les scènes et les cues
 
 Les scènes et les cues permettent d'enregistrer des paramètres des surfaces et des textures afin de pouvoir les animer et les jouer à la suite. On peux par exemple enchaîner plusieurs vidéos sur une surface, ou alterner entre différentes animations.
 
 ### Créer une scène
 
-Pour créer une scène, il suffit de cliquer sur le + dans une case vide du tableau des scènes.
+Pour créer une scène, il suffit de cliquer sur le ➕ dans une case vide du tableau des scènes.
 
 ![Screenshot de l'interface avec scène](./images/screen5.png)
 
@@ -62,18 +62,19 @@ On peux également modifier des paramètres et faire clic droit > `Update values
 
 ### Interface des scènes et cues
 
-Il est possible de modifier le nom des scènes ou des cues en double cliquant dessus, et de modifier la couleur des cases en cliquant sur l'engrenage afin de visualiser rapidement ce qui correspond à quoi.
+Il est possible de modifier le nom des scènes ou des cues en double cliquant dessus, et de modifier la couleur des cases en cliquant sur l'engrenage ⚙️ afin de visualiser rapidement ce qui correspond à quoi.
 
 ![Screenshot des scènes et cues](./images/screen10.png)
 
 ### Programmer les scènes et les cues
 
-Dans le même menu engrenage, on peux choisir le temps et le mode de fondu de chaque scène et cue, afin que le fondu entre chaque paramètre soit plus ou moins long lorsqu'on les enchaîne.
+Dans le même menu engrenage ⚙️, on peux choisir le temps et le mode de fondu de chaque scène et cue, afin que le fondu entre chaque paramètre soit plus ou moins long lorsqu'on les enchaîne.
 
-De la même façon, on peux modifier la durée par défaut de chaque colonne(donc de chaque scène) dans l'engrenage principal du tableau des scènes, en lui donnant une valeur en secondes ou en BPM, ou choisir que l'on enchaîne les colonnes à chaque fin de vidéo présent dans les textures.
+De la même façon, on peux modifier la durée par défaut de chaque colonne(donc de chaque scène) dans l'engrenage ⚙️ principal du tableau des scènes, en lui donnant une valeur en secondes ou en BPM, ou choisir que l'on enchaîne les colonnes à chaque fin de vidéo présent dans les textures.
 
 On peux également choisir que les colonnes s'enchaînent de gauche à droite une fois, en boucle, ou de manière aléatoire.
 
-Il suffit ensuite de cliquer sur la flèche de lecture pour lancer la séquence.
+Il suffit ensuite de cliquer sur la flèche de lecture ▶️ pour lancer la séquence.
 
 ![Screenshot des scènes et cues](./images/screen11.png)
+
