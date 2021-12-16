@@ -30,7 +30,7 @@ Lorsqu'une texture est sélectionné, on peux modifier différents paramètres d
 
 ### Créer une scène
 
-Pour créer une scène, il suffit de cliquer sur un + dans une case vide du tableau des scènes.
+Pour créer une scène, il suffit de cliquer sur le + dans une case vide du tableau des scènes.
 
 ![Screenshot de l'interface avec scène](./images/screen5.png)
 
@@ -42,4 +42,16 @@ On peux mettre à jour une scène en faisait clic droit > `Update Scene`, et cr�
 
 ### Créer une cue
 
+À la différence d'une scène qui retient tous les paramètres mis en place, une cue ne sauvegarde qu'un ou plusieurs paramètres sélectionnés, et permet de l'appliquer à différentes scènes.
 
+Pour créer une cue, il faut activer le mode `Edit` dans le tableau des scènes, et modifier un des paramètres en cliquant avec la touche Maj ou ajouter le paramètre avec sa valeur actuelle en cliquant dessus.
+
+![Screenshot du bouton Edit](./images/screen7.png)
+
+Lorsque le mode `Edit` est activé, tous les paramètres modifiables sont surlignés en rouge, et ceux qui ont été modifiés et sont sauvegardés dans la cue sont soulignés en route.
+
+![Screenshot des paramètres](./images/screen8.png)
+
+On peux également modifier des paramètres et faire clic droit > `Update values` pour mettre à jour les valeurs de la cue.
+
+![Screenshot Update Values cue](./images/screen9.png)
