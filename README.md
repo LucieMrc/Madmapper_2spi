@@ -8,11 +8,15 @@ Le but est de mettre en place rapidement un mapping en utilisant Madmapper. Madm
 
 L'interface de MadMapper se présente en trois partie : la partie de gauche nous permet de créer de nouvelles surfaces et de gérer les projecteurs, la partie du milieu affiche à la fois la texture, l'interface de projection et le tableau des scènes, tandis que la partie de droite référence nos textures.
 
-### Créer une surface
+Les 5 onglets de la partie de droite permettent de configurer : les surfaces, les lumières en DMX, les projecteurs, les modules, et les Masters. 
 
 ![Screenshot de l'interface de gauche](./images/screen2.png)
 
-Les 5 onglets de la partie de droite permettent de configurer : les surfaces, les lumières en DMX, les projecteurs, les modules, et les Masters. 
+**Attention :** Pour que l'interface de projection soit à l'échelle par rapport à la résolution du vidéo projecteur, il faut aller dans le troisième onglet, `Manage Outputs`, et entrer la résolution indiquée sous le nom du vidéo projecteur dans la case `Output Size`.
+
+![Screenshot de l'interface de gauche](./images/screen2_1.png)
+
+### Créer une surface
 
 Nous allons principalement nous intéresser au première onglet : en cliquant sur l'icône `Add a Video Quad`, on créée une surface carré sur l'interface de projection, que l'on peux redimensionner, pivoter, et dont on peux déplacer les coins.
 
