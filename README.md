@@ -12,9 +12,21 @@ Les 5 onglets de la partie de droite permettent de configurer : les surfaces, le
 
 ![Screenshot de l'interface de gauche](./images/screen2.png)
 
+## Projection
+
 **Attention :** Pour que l'interface de projection soit à l'échelle par rapport à la résolution du vidéo projecteur, il faut aller dans le troisième onglet, `Manage Outputs`, et entrer la résolution indiquée sous le nom du vidéo projecteur dans la case `Output Size`.
 
-![Screenshot de l'interface de gauche](./images/screen2_1.png)
+![Screenshot de l'interface des projecteurs](./images/screen2_1.png)
+
+Ensuite, il faut s'assurer que la destination sélectionnée est bien le projecteur et non l'écran de l'ordinateur, et que les moniteurs ne sont pas en mode "recopie vidéo" mais bien en "étendue d'écran".
+
+![Screenshot de l'interface des projecteurs](./images/screen2_2.png)
+
+On peux ensuite cliquer sur `Desktop Window` afin d'ouvrir une fenêtre de projection, et la faire glisser sur l'écran étendu qui est projeté par le projecteur.
+
+![Screenshot du menu Output](./images/screen2_3.png)
+
+Il faut ensuite cocher l'option `Full Screen Mode` dans l'onglet Output de la barre de menu, et on peux cocher l'option `Video Cursor` pour afficher des repères blancs qui suivent la souris.
 
 ### Créer une surface
 
