@@ -30,6 +30,8 @@ Lorsqu'une texture est sélectionné, on peux modifier différents paramètres d
 
 ## Les scènes et les cuess
 
+Les scènes et les cues permettent d'enregistrer des paramètres des surfaces et des textures afin de pouvoir les animer et les jouer à la suite. On peux par exemple enchaîner plusieurs vidéos sur une surface, ou alterner entre différentes animations.
+
 ### Créer une scène
 
 Pour créer une scène, il suffit de cliquer sur le + dans une case vide du tableau des scènes.
