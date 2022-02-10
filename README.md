@@ -8,7 +8,7 @@ Le but est de mettre en place rapidement un mapping en utilisant Madmapper. Madm
 
 L'interface de MadMapper se présente en trois partie : la partie de gauche nous permet de créer de nouvelles surfaces et de gérer les projecteurs, la partie du milieu affiche à la fois la texture, l'interface de projection et le tableau des scènes, tandis que la partie de droite référence nos textures.
 
-Les 5 onglets de la partie de droite permettent de configurer : les surfaces, les lumières en DMX, les projecteurs, les modules, et les Masters. 
+Les 5 onglets de la partie de droite permettent de configurer : les surfaces, les lumières en DMX, les projecteurs, les modules, et les Masters.
 
 ![Screenshot de l'interface de gauche](./images/screen2.png)
 
@@ -27,6 +27,8 @@ On peux ensuite cliquer sur `Desktop Window` afin d'ouvrir une fenêtre de proje
 ![Screenshot du menu Output](./images/screen2_3.png)
 
 Il faut ensuite cocher l'option `Full Screen Mode` dans l'onglet Output de la barre de menu, et on peux cocher l'option `Video Cursor` pour afficher des repères blancs qui suivent la souris.
+
+## Surfaces et textures
 
 ### Créer une surface
 
@@ -93,4 +95,14 @@ On peux également choisir que les colonnes s'enchaînent de gauche à droite un
 Il suffit ensuite de cliquer sur la flèche de lecture ▶️ pour lancer la séquence.
 
 ![Screenshot des scènes et cues](./images/screen11.png)
+
+# **Bonus** : utiliser de l'OSC dans MadMapper
+
+Pour contrôler différents paramètres de MadMapper avec OSC depuis son téléphone par exemple, il faut au préalable installer une application d'envoi d'OSC tel que ZIG SIM, et connecter le téléphone et l'ordinateur au même réseau wifi.
+
+![Screenshot des préférences](./images/screen12.png)
+
+Dans le menu `Preferences`, ajuster le numéro de port et l'adresse IP pour être la même que celle du réseau Wifi et du téléphone sur ZIG SIM.
+
+![Screenshot de ZIG SIM](./images/screen13.png)
 
