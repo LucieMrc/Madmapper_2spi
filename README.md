@@ -98,11 +98,31 @@ Il suffit ensuite de cliquer sur la flèche de lecture ▶️ pour lancer la sé
 
 # **Bonus** : utiliser de l'OSC dans MadMapper
 
-Pour contrôler différents paramètres de MadMapper avec OSC depuis son téléphone par exemple, il faut au préalable installer une application d'envoi d'OSC tel que ZIG SIM, et connecter le téléphone et l'ordinateur au même réseau wifi.
+### Avec juste ZIG SIM
+
+Pour contrôler différents paramètres de MadMapper avec OSC depuis son téléphone par exemple, il faut au préalable installer une application d'envoi d'OSC tel que ZIG SIM, et connecter le téléphone et l'ordinateur au même réseau wifi. Il est possible de récuperer directement depuis ZIG SIM, même si ce n'est pas idéal.
+
+Dans le menu `Preferences` de MadMapper, ajuster le numéro de port et l'adresse IP pour être la même que celle du réseau Wifi et du téléphone sur ZIG SIM.
 
 ![Screenshot des préférences](./images/screen12.png)
 
-Dans le menu `Preferences`, ajuster le numéro de port et l'adresse IP pour être la même que celle du réseau Wifi et du téléphone sur ZIG SIM.
+Dans ZIG SIM, le format de message doit donc être en OSC, et c'est mieux si le nom du téléphone (DEVICE UUID) est un truc simple en un seul mot.
 
 ![Screenshot de ZIG SIM](./images/screen13.png)
 
+Ensuite, dans MadMapper, pour contrôler par exemple la valeur de la rotation de notre texture vidéo avec le téléphone, on clic-droit sur le slider rotation > `Add Control` > `OSC`.
+
+![Screenshot de Madmapper](./images/screen14.png)
+
+On arrive ainsi dans la fenêtre Control List, dans l'onglet OSC, avec la liste de contrôle (qui ne contient ici que celui qu'on vient de créer).
+
+Pour récupérer par exemple la première donnée, x, de l'accéléromètre du téléphone, on sélectionne "/lucie/accel/#1" (ici "lucie" le nom du téléphone).
+En cliquant sur `Learn` en déplaçant le téléphone pour obtenir des valeurs, on obtient la plage de valeurs que cette donnée prend, qui est ensuite mise à l'échelle sur la plage de valeur de la rotation de la texture.
+
+![Screenshot de ZIG SIM](./images/screen15.png)
+
+//
+
+### En passant par Processing
+ //
+# MadMapper-SpatialScanner-Tuto
