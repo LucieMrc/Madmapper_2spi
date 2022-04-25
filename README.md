@@ -121,6 +121,12 @@ En cliquant sur `Learn` en déplaçant le téléphone pour obtenir des valeurs, 
 
 ![Screenshot de ZIG SIM](./images/screen15.png)
 
-//
+à suivre...
 
 ### En passant par Processing
+
+à suivre...
+
+## Pour aller + loin
+
+Le tuto [utilisation du Spatial Scanner](https://github.com/LucieMrc/MadMapper-SpatialScanner-Tuto) pour scanner rapidement des scènes et en sortir une image correspondant à ce que "voit" le projecteur.
