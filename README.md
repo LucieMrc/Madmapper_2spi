@@ -2,6 +2,8 @@
 
 Le but est de mettre en place rapidement un mapping en utilisant Madmapper. Madmapper permet de caler des visuels sur des objets réels en 3D avec de la projection vidéo (notamment des visuels déjà présents dans le logiciel, dont on peux modifier différents paramètres), et enchaîner entre différents visuels.
 
+Pour aller + loin, il y a le tuto [utilisation du Spatial Scanner](https://github.com/LucieMrc/MadMapper-SpatialScanner-Tuto) pour scanner rapidement des scènes et en sortir une image correspondant à ce que "voit" le projecteur.
+
 ## L'interface
 
 ![Screenshot de l'interface de MadMapper](./images/screen1.png)
