@@ -104,13 +104,19 @@ Il suffit ensuite de cliquer sur la flèche de lecture ▶️ pour lancer la sé
 
 Pour contrôler différents paramètres de MadMapper avec OSC depuis son téléphone par exemple, il faut au préalable installer une application d'envoi d'OSC tel que ZIG SIM, et connecter le téléphone et l'ordinateur au même réseau wifi. Il est possible de récuperer directement depuis ZIG SIM, même si ce n'est pas idéal.
 
-Dans le menu `Preferences` de MadMapper, ajuster le numéro de port et l'adresse IP pour être la même que celle du réseau Wifi et du téléphone sur ZIG SIM.
+Dans le menu `Preferences` de MadMapper, ajuster le numéro de port pour être la même que celle sur ZIG SIM. 
+
+Laisser l'OSC Feedback IP en Auto, et décocher le mode Enable Bonjour Discovery.
 
 ![Screenshot des préférences](./images/screen12.png)
 
 Dans ZIG SIM, le format de message doit donc être en OSC, et c'est mieux si le nom du téléphone (DEVICE UUID) est un truc simple en un seul mot.
 
-![Screenshot de ZIG SIM](./images/screen13.png)
+![Screenshot de ZIG SIM](./images/screen13.jpg)
+
+L'adresse IP doit être la même que celle de l'ordinateur, qu'on peux récupérer dans les paramètres réseaux :
+
+![Screenshot de ZIG SIM](./images/screen132.png)
 
 Ensuite, dans MadMapper, pour contrôler par exemple la valeur de la rotation de notre texture vidéo avec le téléphone, on clic-droit sur le slider rotation > `Add Control` > `OSC`.
 
@@ -123,7 +129,9 @@ En cliquant sur `Learn` en déplaçant le téléphone pour obtenir des valeurs, 
 
 ![Screenshot de ZIG SIM](./images/screen15.png)
 
-à suivre...
+La Source range (= l'étendue de valeurs) par défaut est entre 0 et 1, alors que ZIG SIM envoit des valeurs sur des plages de données différentes.
+
+La Target range est l'étendue de valeurs du paramètre controlé (ici entre 0 et 360° pour la rotation).
 
 ### En passant par Processing
 
