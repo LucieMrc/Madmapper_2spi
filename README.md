@@ -98,45 +98,9 @@ Il suffit ensuite de cliquer sur la flèche de lecture ▶️ pour lancer la sé
 
 ![Screenshot des scènes et cues](./images/screen11.png)
 
-# **Bonus** : utiliser de l'OSC dans MadMapper
-
-### Avec juste ZIG SIM
-
-Pour contrôler différents paramètres de MadMapper avec OSC depuis son téléphone par exemple, il faut au préalable installer une application d'envoi d'OSC tel que ZIG SIM, et connecter le téléphone et l'ordinateur au même réseau wifi. Il est possible de récuperer directement depuis ZIG SIM, même si ce n'est pas idéal.
-
-Dans le menu `Preferences` de MadMapper, ajuster le numéro de port pour être la même que celle sur ZIG SIM. 
-
-Laisser l'OSC Feedback IP en Auto, et décocher le mode Enable Bonjour Discovery.
-
-![Screenshot des préférences](./images/screen12.png)
-
-Dans ZIG SIM, le format de message doit donc être en OSC, et c'est mieux si le nom du téléphone (DEVICE UUID) est un truc simple en un seul mot.
-
-![Screenshot de ZIG SIM](./images/screen13.jpg)
-
-L'adresse IP doit être la même que celle de l'ordinateur, qu'on peux récupérer dans les paramètres réseaux :
-
-![Screenshot de ZIG SIM](./images/screen132.png)
-
-Ensuite, dans MadMapper, pour contrôler par exemple la valeur de la rotation de notre texture vidéo avec le téléphone, on clic-droit sur le slider rotation > `Add Control` > `OSC`.
-
-![Screenshot de Madmapper](./images/screen14.png)
-
-On arrive ainsi dans la fenêtre Control List, dans l'onglet OSC, avec la liste de contrôle (qui ne contient ici que celui qu'on vient de créer).
-
-Pour récupérer par exemple la première donnée, x, de l'accéléromètre du téléphone, on sélectionne "/lucie/accel/#1" (ici "lucie" le nom du téléphone).
-En cliquant sur `Learn` en déplaçant le téléphone pour obtenir des valeurs, on obtient la plage de valeurs que cette donnée prend, qui est ensuite mise à l'échelle sur la plage de valeur de la rotation de la texture.
-
-![Screenshot de ZIG SIM](./images/screen15.png)
-
-La Source range (= l'étendue de valeurs) par défaut est entre 0 et 1, alors que ZIG SIM envoit des valeurs sur des plages de données différentes.
-
-La Target range est l'étendue de valeurs du paramètre controlé (ici entre 0 et 360° pour la rotation).
-
-### En passant par Processing
-
-à suivre...
 
 ## Pour aller + loin
+
+Le tuto [MadMapper_OSC](https://github.com/LucieMrc/MadMapper_OSC) pour contrôler des paramètres de MadMapper avec des valeurs envoyés en OSC depuis un téléphone.
 
 Le tuto [utilisation du Spatial Scanner](https://github.com/LucieMrc/MadMapper-SpatialScanner-Tuto) pour scanner rapidement des scènes et en sortir une image correspondant à ce que "voit" le projecteur.
