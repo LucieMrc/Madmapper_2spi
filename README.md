@@ -31,6 +31,8 @@ On peux ensuite cliquer sur `Desktop Window` afin d'ouvrir une fenêtre de proje
 
 Il faut ensuite cocher l'option `Full Screen Mode` dans l'onglet Output de la barre de menu, et on peux cocher l'option `Video Cursor` pour afficher des repères blancs qui suivent la souris.
 
+Pour quitter le mode full screen, faire ctrl+T.
+
 ## Surfaces et textures
 
 ### Créer une surface
