@@ -5,6 +5,21 @@ Madmapper permet de caler des visuels sur des objets réels en 3D avec de la pro
 
 Pour aller + loin, il y a le tuto [utilisation du Spatial Scanner](https://github.com/LucieMrc/MadMapper-SpatialScanner-Tuto) pour scanner rapidement des scènes et en sortir une image correspondant à ce que "voit" le projecteur.
 
+## Sommaire
+
+* [L'interface](#linterface)<br>
+* [Projection](#projection)<br>
+* [Surfaces et textures](#Surfaces-et-textures)<br>
+    * [Créer une surface](#Créer-une-surface)<br>
+    * [Appliquer une texture](#Appliquer-une-texture)<br>
+* [Les scènes et les cues](#Les-scènes-et-les-cues)<br>
+    * [Créer une scène](#Créer-une-scène)<br>
+    * [Créer une cue](#Créer-une-cue)<br>
+    * [Interface des scènes et cues](#Interface-des-scènes-et-cues)<br>
+    * [Programer les scènes et les cues](#Programmer-les-scènes-et-les-cues)<br>
+* [Pour aller + loin](#pour-aller--loin)<br>
+
+
 ## L'interface
 
 ![Screenshot de l'interface de MadMapper](./images/screen1.png)
