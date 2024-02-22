@@ -56,6 +56,27 @@ Nous allons principalement nous intéresser au première onglet : en cliquant su
 
 ![Screenshot d'une surface](./images/screen3.png)
 
+Dans les paramètres en dessous de la liste des surfaces, on peux choisir l'opacité et le mode de fusion de la surface.
+
+Avec l'option `FX`, on peux choisir un effet visuel à appliquer sur la surface et sa texture, notamment l'effet Chroma Key pour enlever le fond vert d'une vidéo, ou l'effet Luma Key pour enlever un fond noir ou blanc.
+
+![Screenshot d'une surface](./images/screen14.png)
+
+On peux également flouter le contour de la surface avec l'option `Feathering`.
+
+![Screenshot d'une surface](./images/screen13.png)
+
+On peux créer un masque dans la surface avec l'option `Mask`. Le masque peux soit masquer une partie de la surface, ou bien masquer l'extérieur du masque si on choisit `Invert Mask`.
+
+![Screenshot d'une surface](./images/screen15.png)
+
+Enfin, on peux créer les contours d'une surface en cliquant sur l'option `Create Lines From Surface Outlines` tout en bas des paramètres.
+
+![Screenshot d'une surface](./images/screen16.png)
+
+Cette option crée les contours comme une surface à part, avec ses propres paramètres (notamment la largeur des lignes) et à laquelle on peux appliquer sa propre texture.
+![Screenshot d'une surface](./images/screen17.png)
+
 ### Appliquer une texture
 
 On applique une texture sur une surface en sélectionnant cette surface, puis en cliquant sur la flèche ◀️ de la texture désirée dans la partie gauche de l'interface.
@@ -65,6 +86,9 @@ On applique une texture sur une surface en sélectionnant cette surface, puis en
 La texture s'affiche alors dans la partie du milieu, à la fois sur la surface dans l'interface de projection, mais aussi dans la partie texture où on peux venir la redimensionner ou la pivoter.
 
 Lorsqu'une texture est sélectionné, on peux modifier différents paramètres dans la partie de droite en dessous de la liste des textures : l'échelle, la couleur, la vitesse d'animation, etc.
+
+On peux accéder à d'autres textures de Madmapper en cliquant sur le bouton ➕ de la liste des textures.
+![Screenshot de l'interface](./images/screen12.png)
 
 ## Les scènes et les cues
 
@@ -116,8 +140,9 @@ Il suffit ensuite de cliquer sur la flèche de lecture ▶️ pour lancer la sé
 
 ![Screenshot des scènes et cues](./images/screen11.png)
 
-
 ## Pour aller + loin
+
+La playlist youtube de Madmapper [MADTutorials Basics](https://www.youtube.com/playlist?list=PLe9qr8GslyxLCyNHgilPmRc6UzgzHfQpM)
 
 Le tuto [MadMapper_OSC](https://github.com/LucieMrc/MadMapper_OSC) pour contrôler des paramètres de MadMapper avec des valeurs envoyés en OSC depuis un téléphone.
 
