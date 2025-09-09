@@ -26,7 +26,9 @@ Pour aller + loin, il y a le tuto [utilisation du Spatial Scanner](https://githu
 
 L'interface de MadMapper se présente en trois partie : la partie de gauche nous permet de créer de nouvelles surfaces et de gérer les projecteurs, la partie du milieu affiche à la fois la texture, l'interface de projection et le tableau des scènes, tandis que la partie de droite référence nos textures.
 
-Les 5 onglets de la partie de droite permettent de configurer : les surfaces, les lumières en DMX, les projecteurs, les modules, et les Masters.
+![Screenshot de l'interface de gauche](./images/screen2_4.png)
+
+Les 5 onglets de la partie de droite permettent de configurer : les surfaces, les lumières en DMX, les projecteurs et écrans, les modules, et les Masters.
 
 ![Screenshot de l'interface de gauche](./images/screen2.png)
 
@@ -139,6 +141,41 @@ On peux également choisir que les colonnes s'enchaînent de gauche à droite un
 Il suffit ensuite de cliquer sur la flèche de lecture ▶️ pour lancer la séquence.
 
 ![Screenshot des scènes et cues](./images/screen11.png)
+
+## Créer un contrôle
+
+### Lancer une scène avec le clavier
+
+![Screenshot des scènes et cues](./images/screen18.png)
+ 
+Faire un clic-droit sur la scène, puis faire Add Control > Keyboard.
+
+![Screenshot des scènes et cues](./images/screen19.png)
+
+L'interface "Control List" s'ouvre, le contrôle est créé :
+/cues/selected/scenes/by_cell/col_1 pour la scène selectionnée à la colonne 1.
+
+![Screenshot des scènes et cues](./images/screen20.png)
+
+Pour choisir la touche du clavier associée, on clique sur le bouton `Learn`, ce qui ouvre la fenêtre "Waiting for keyboard event..." et on appuie sur la touche pour sélectionner la lettre.
+
+En créant ce contrôle sur chacunes des scènes, on peux naviguer entre les scènes grâce aux claviers.
+
+## Autres contrôles
+
+On peux faire un clic droit > Add Control sur la plupart des élements de Madmapper, que ce soit une action/un bouton (démarrer une vidéo, activer le son, passer à la scène suivante, etc) ou un paramètre (l'opacité, la vitesse, le niveau du son).
+
+On peux ainsi contrôler ces élements avec :
+- le clavier
+- des évenements MIDI
+- des messages OSC
+- de l'audio
+- des évenements Madmapper :
+    - le BPM
+    - les évenements "Media Playback" (l'état de lecture de médias importés)
+    ![Screenshot des scènes et cues](./images/screen21.png)
+    - d'autres modules additionnels qui proviennent de l'onglet Modules en haut à gauche. On peux notamment utiliser Firmata avec Arduino.
+- des évenements Ableton
 
 ## Pour aller + loin
 
