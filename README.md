@@ -59,6 +59,8 @@ Attention, il faut d'abord s'assurer dans les réglages de l'ordinateur **les mo
 
 Ensuite dans Madmapper, on va dans l'onglet Sorties de la colonne de gauche, puis on sélectionne le projecteur (et non l'écran de l'ordinateur, ici "Built-in Retina Display) dans le paramètre `Destination`.
 
+![Screenshot de l'interface de MadMapper](./images/screen21.png)
+
 Pour que la sortie vidéo soit à l'échelle par rapport à la résolution du vidéo projecteur, il faut aller entrer la résolution indiquée sous le nom du vidéo projecteur dans les paramètres `Output Size`.
 
 ![Screenshot de l'interface de MadMapper](./images/screen11.png)
