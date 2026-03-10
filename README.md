@@ -15,14 +15,14 @@ L'interface par défaut de Madmapper se présente en 3 parties :
 
 ### Textures et médias
 
-<img src="./images/screen2.png" width="200"/>
+<img src="./images/screen2.png" width="400"/>
 
 On choisit une texture parmis celles proposées par Madmapper, dont les paramètres (l'échelle, la couleur, la vitesse d'animation, etc.) sont modifiables en dessous, ou on importe ses propres médias en les faisant glisser ou en cliquant sur Images/Movies > ➕.
 
 ### Surfaces
 Les surfaces servent à afficher des textures sur la projection, en donnant de la perspective : on a un fond noir, et on crée autant de surfaces que l'on souhaite de textures ou que l'on veux délimiter de zones.
 
-<img src="./images/screen4.png" width="200"/>
+<img src="./images/screen4.png" width="400"/>
 
 On crée des surfaces sur la sortie vidéo, que l'on peut redimensionner, pivoter, et dont on peut déplacer les coins afin de changer la perspective.
 
@@ -32,14 +32,14 @@ On peut changer le nom de ces surfaces, leur ordre, et créer des groupes qu'on 
 
 ### Fixtures DMX
 //a quoi ça sert
-<img src="./images/screen5.png" width="200"/>
+<img src="./images/screen5.png" width="400"/>
 
 On peut créer des fixtures DMX pour le pixel mapping, et modifier le nombre et le type de leds dans chaque fixture.
 
 On peut modifier l'adresse DMX de chaque fixture dans ses paramètres.
 
 ### Sorties
-<img src="./images/screen6.png" width="200"/>
+<img src="./images/screen6.png" width="400"/>
 
 On peut ajouter des sorties vidéos, et choisir la résolution et la sortie vidéo sur laquelle on envoit chaque sortie. 
 
@@ -53,7 +53,7 @@ On peut utiliser les modules disponibles dans Madmapper pour faire l'interface e
 
 ### Master
 
-<img src="./images/screen3.png" width="200"/>
+<img src="./images/screen3.png" width="400"/>
 
 On a accès aux paramètres globaux du projet (volume sonore, opacité, etc).
 
@@ -81,7 +81,7 @@ Dans l'onglet Surfaces, on peut donc créer un quad et le positionner sur la sor
 
 Le plus simple est de sélectionner de mettre les surfaces en blanc afin de voir sur la projection si on recouvre bien toute la surface sans dépasser.
 
-<img src="./images/screen10.png" width="200"/>
+<img src="./images/screen10.png" width="400"/>
 
 On peut créer un masque dans la surface avec l'option `Mask`. Le masque peut soit masquer une partie de la surface, ou bien masquer l'extérieur du masque si on choisit `Invert Mask`.
 
@@ -122,7 +122,7 @@ Pour mettre à jour la Scène après avoir fait des modifications, on fait cliqu
 
 Le Conductor est une timeline, qui permet de créer des points clefs pour tous les paramètres souhaités. Il suffit de faire clique-droit > Add to Timeline.
 
-<img src="./images/screen17.png" width="200"/>
+<img src="./images/screen17.png" width="400"/>
 
 On peut ensuite ajouter des points-clefs de valeurs ou de couleurs en double-cliquant sur la timeline.
 
