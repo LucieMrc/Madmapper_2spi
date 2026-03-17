@@ -3,6 +3,42 @@
 **Ou comment mettre en place rapidement un mapping en utilisant Madmapper.
 Madmapper permet de caler des visuels sur des objets réels en 3D avec de la projection vidéo (notamment des visuels déjà présents dans le logiciel, dont on peut modifier différents paramètres), et enchaîner entre différents visuels.**
 
+# Mise en place rapide !
+
+## 1. Brancher et placer le vidéo projecteur
+
+Commencer par **brancher** et **allumer** le vidéoprojecteur afin de voir la surface de projection.
+
+Il faut placer le vidéoprojecteur de manière à ce que **l'élément sur lequel on projette soit entièrement recouvert par la surface de projection**. Si on ne recouvre pas tout, reculer ou replacer.
+
+Idéalement, il faut qu'il n'y ai **AUCUN risque** que le vidéoprojecteur ou que le trépied sur lequel est fixé le vidéoprojecteur ne tombe ou ne bouge.
+
+**Faire le focus** si besoin : c'est soit sur la bague de la lentille du projecteur, soit certains pico (mini vidéoproj) font la mise au point automatique et il ne faut du coup pas forcer sur la bague de la lentille.
+
+## 2. Madmapper
+
+Dans les réglages de l'ordinateur, vérifier que **les moniteurs ne sont pas en mode "recopie vidéo" mais bien en "étendue d'écran"**.
+
+Ouvrir Madmapper, et aller dans l'onglet Sorties de la colonne de gauche, puis on **sélectionne le projecteur dans le paramètre `Destination`**.
+
+![Screenshot de l'interface de MadMapper](./images/screen21.png)
+
+**Entrer la résolution** indiquée sous le nom du vidéo projecteur dans les paramètres `Output Size`.
+
+![Screenshot de l'interface de MadMapper](./images/screen11.png)
+
+Pour lancer la projection, aller dans le menu en haut et **faire Output > Full Screen Mode**.
+
+## 3. Rangement
+
+Pour quitter le mode full screen, faire ctrl+T.
+
+Éteindre le vidéoprojecteur et attendre qu'il refroidisse un peu (5min) avant de le débrancher et de le ranger dans sa pochette.
+
+Replier les câbles et les ranger avec le projecteur.
+
+Si trépied, replier et refermer entièrement le trépied en rebloquant au fur et à mesure les pieds et les rotules.
+
 # Version 6
 
 ## L'interface
@@ -31,10 +67,12 @@ On peut également créer des masques, soit sur les surfaces (dans les paramètr
 On peut changer le nom de ces surfaces, leur ordre, et créer des groupes qu'on active ou désactive.
 
 ### Fixtures DMX
-//a quoi ça sert
+
+Les fixtures DMX servent à programmer des leds (souvent type barres, rubans ou écrans de leds) afin de faire notamment du [pixel mapping](https://github.com/LucieMrc/Madmapper_PixelMapping?tab=readme-ov-file#1-communication).
+
 <img src="./images/screen5.png" width="400"/>
 
-On peut créer des fixtures DMX pour le pixel mapping, et modifier le nombre et le type de leds dans chaque fixture.
+On peut créer des fixtures et modifier le nombre et le type de leds dans chaque fixture.
 
 On peut modifier l'adresse DMX de chaque fixture dans ses paramètres.
 
@@ -49,7 +87,7 @@ Par défaut, la sortie DMX est automatique en fonction des fixtures crées préc
 
 ![Screenshot de l'interface de MadMapper](./images/screen7.png)
 
-On peut utiliser les modules disponibles dans Madmapper pour faire l'interface entre des données.
+On peut utiliser les modules disponibles dans Madmapper pour faire l'interface entre des données : envoyer des données OSC, échanger des données depuis Arduino via Firmata, créer un oscillateur ou du noise, etc.
 
 ### Master
 
@@ -61,7 +99,7 @@ On a accès aux paramètres globaux du projet (volume sonore, opacité, etc).
 
 1 . Attention, il faut d'abord s'assurer dans les réglages de l'ordinateur **les moniteurs ne sont pas en mode "recopie vidéo" mais bien en "étendue d'écran".** Sinon, on projete l'interface de Madmapper et non la sortie vidéo. Après avoir branché le vidéo projecteur et avant de lancer la projection, on devrait donc voir projeté le fond d'écran de l'ordinateur par défaut.
 
-2 . Ensuite dans Madmapper, on va dans l'onglet Sorties de la colonne de gauche, puis on sélectionne le projecteur (et non l'écran de l'ordinateur, ici "Built-in Retina Display) dans le paramètre `Destination`.
+2 . Ensuite dans Madmapper, on va dans l'onglet Sorties de la colonne de gauche, puis on sélectionne le projecteur (et non l'écran de l'ordinateur, ici "Built-in Retina Display") dans le paramètre `Destination`.
 
 ![Screenshot de l'interface de MadMapper](./images/screen21.png)
 
@@ -84,6 +122,10 @@ Le plus simple est de sélectionner de mettre les surfaces en blanc afin de voir
 <img src="./images/screen10.png" width="400"/>
 
 On peut créer un masque dans la surface avec l'option `Mask`. Le masque peut soit masquer une partie de la surface, ou bien masquer l'extérieur du masque si on choisit `Invert Mask`.
+
+![Screenshot de l'interface de MadMapper](./images/screen22.png)
+
+On peut également ajouter un effet Chroma Key directement dans les paramètres de la surface.
 
 ![Screenshot de l'interface de MadMapper](./images/screen12.png)
 
