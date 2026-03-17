@@ -5,6 +5,8 @@ Madmapper permet de caler des visuels sur des objets réels en 3D avec de la pro
 
 # Mise en place rapide !
 
+![Screenshot de l'interface de MadMapper](./images/projection.png)
+
 ## 1. Brancher et placer le vidéo projecteur
 
 Commencer par **brancher** et **allumer** le vidéoprojecteur afin de voir la surface de projection.
