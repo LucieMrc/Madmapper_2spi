@@ -101,7 +101,7 @@ On a accès aux paramètres globaux du projet (volume sonore, opacité, etc).
 
 1 . Attention, il faut d'abord s'assurer dans les réglages de l'ordinateur **les moniteurs ne sont pas en mode "recopie vidéo" mais bien en "étendue d'écran".** Sinon, on projete l'interface de Madmapper et non la sortie vidéo. Après avoir branché le vidéo projecteur et avant de lancer la projection, on devrait donc voir projeté le fond d'écran de l'ordinateur par défaut.
 
-2 . Ensuite dans Madmapper, on va dans l'onglet Sorties de la colonne de gauche, puis on sélectionne le projecteur (et non l'écran de l'ordinateur, ici "Built-in Retina Display") dans le paramètre `Destination`.
+2 . Dans Madmapper, on va dans l'onglet Sorties de la colonne de gauche, puis on sélectionne le projecteur (et non l'écran de l'ordinateur, ici "Built-in Retina Display") dans le paramètre `Destination`.
 
 ![Screenshot de l'interface de MadMapper](./images/screen21.png)
 
@@ -119,7 +119,7 @@ Dans l'onglet Surfaces, on peut donc créer un quad et le positionner sur la sor
 
 ![Screenshot de l'interface de MadMapper](./images/screen8.png)
 
-Le plus simple est de sélectionner de mettre les surfaces en blanc afin de voir sur la projection si on recouvre bien toute la surface sans dépasser.
+Le plus simple est de sélectionner une texture blanche sur les surfaces afin de voir sur la projection si on recouvre bien toute la surface sans dépasser.
 
 <img src="./images/screen10.png" width="400"/>
 
